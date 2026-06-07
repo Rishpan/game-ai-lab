@@ -2,6 +2,8 @@
 
 A sandbox for experimenting with reinforcement learning agents across a variety of game environments.
 
+As someone who enjoys playing video games, I've always been curious about a simple question: can a game be won without pressing a single button on the keyboard? Could an agent crank 90s in Fortnite? This project explores that idea by building reinforcement learning agents that learn to play games autonomously.
+
 The goal of this project is to explore how different RL algorithms learn autonomous gameplay, evaluate their performance, and compare results across environments ranging from classic control tasks to custom games.
 
 ## Objectives
