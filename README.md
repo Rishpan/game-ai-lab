@@ -4,7 +4,19 @@ A sandbox for experimenting with reinforcement learning agents across a variety 
 
 As someone who enjoys playing video games, I've always been curious about a simple question: can a game be won without pressing a single button on the keyboard? Could an agent crank 90s in Fortnite? This project explores that idea by building reinforcement learning agents that learn to play games autonomously.
 
-The goal of this project is to explore how different RL algorithms learn autonomous gameplay, evaluate their performance, and compare results across environments ranging from classic control tasks to custom games.
+The goal is to start with simple control problems and gradually move toward more complex games, while comparing different algorithms and training approaches.
+
+---
+
+## Tech Stack
+
+* Python
+* PyTorch
+* Gymnasium
+* Stable-Baselines3
+* Pygame (for custom game environments)
+
+---
 
 ## Objectives
 
@@ -14,6 +26,8 @@ The goal of this project is to explore how different RL algorithms learn autonom
 * Develop custom game environments compatible with Gymnasium
 * Build a reusable foundation for RL experimentation
 
+---
+
 ## Planned Environments
 
 ### Gymnasium Environments
@@ -22,11 +36,13 @@ The goal of this project is to explore how different RL algorithms learn autonom
 * LunarLander
 * MountainCar
 
-### Custom Environments
+### Custom Environments (Pygame-based)
 
 * Snake
 * Flappy Bird
 * Additional games to be added over time
+
+---
 
 ## Planned Agents
 
@@ -35,9 +51,11 @@ The goal of this project is to explore how different RL algorithms learn autonom
 * A2C
 * Custom implementations and experiments
 
+---
+
 ## Repository Structure
 
-```text
+```text id="v6q2xk"
 game-ai-lab/
 ├── agents/
 ├── environments/
@@ -48,27 +66,16 @@ game-ai-lab/
 └── README.md
 ```
 
-## Getting Started
-
-The project will initially focus on Gymnasium environments to establish a training and evaluation pipeline before expanding to custom games and additional RL algorithms.
-
-Future experiments may include:
-
-* Training multiple agents on the same environment
-* Comparing algorithm performance
-* Reward function experimentation
-* Environment-specific tuning
-* Visualization and benchmarking tools
+---
 
 ## Current Status
 
 🚧 Early Development
 
-The first milestone is training and evaluating agents on CartPole using Gymnasium and Stable-Baselines3.
+Initial focus is on building a stable training pipeline using Gymnasium environments, starting with CartPole.
+
+---
 
 ## Long-Term Vision
 
-Game AI Lab aims to become a centralized playground for reinforcement learning experimentation, enabling contributors to train, evaluate, and benchmark autonomous agents across a growing collection of environments.
-
-The project is intended as a learning platform for exploring reinforcement learning concepts, agent design, training workflows, and autonomous gameplay.
-
+A growing experimental lab for reinforcement learning, where different agents and environments can be trained, compared, and extended over time.
